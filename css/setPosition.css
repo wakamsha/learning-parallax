@@ -1,0 +1,40 @@
+body {
+	height: 3300px;
+}
+h1 {
+	font-size: 100%;
+}
+.indicator {
+	margin: 0;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+
+li {
+	display: block;
+	height: 60px;
+	position: fixed;
+	top: 40px;
+	width: 60px;
+}
+#item1 {
+	background: #000;
+	left: 20px;
+}
+#item2 {
+	background: #333;
+	left: 100px;
+}
+#item3 {
+	background: #ff358B;
+	left: 180px;
+}
+#item4 {
+	background: #01b0f0;
+	left: 260px;
+}
+#item5 {
+	background: #aeee00;
+	left: 340px;
+}

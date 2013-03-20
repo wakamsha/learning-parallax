@@ -1,0 +1,12 @@
+body {
+	height: 3300px;
+}
+h1 {
+	font-size: 100%;
+}
+.indicator {
+	margin: 0;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}

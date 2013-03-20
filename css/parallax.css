@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+}
+
+article h2, article h1 {
+	font-size: 3.6em;
+	line-height: 1em;
+	margin: 25px 0;
+}
+
+.content {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+	color: #333;
+	height: 1050px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+#first {
+	background: url(../img/bg-parallaxsample01.jpg) 50% 0 no-repeat fixed;
+}
+
+#second {
+	background: url(../img/bg-parallaxsample02.jpg) 50% 0 no-repeat fixed black;
+}
+
+#third {
+	background: url(../img/bg-parallaxsample03.jpg) 50% 0 no-repeat fixed black;
+}
+
+#theend {
+	background: url(../img/bg-parallaxsample04.jpg) 50% 0 no-repeat fixed #e6cda4;
+}
+
+/* section first */
+.logo {
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 4em;
+	font-weight: bold;
+	margin: 0;
+	position: fixed;
+	top: 100px;
+	left: 50px;
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+}
+
+#first article {
+	background: rgba(255, 255, 255, 0.9);
+	border: 1px solid rgba(150, 150, 150, 0.1);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.4);
+	padding: 18px;
+	position: absolute;
+	top: 200px;
+	width: 800px;
+}
+
+/* section second */
+#second {
+	padding: 80px 0;
+}
+#second article {
+	background: rgba(51, 51, 51, 0.9);
+	border: 1px solid rgba(150, 150, 150, 0.1);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.4);
+	color: white;
+	margin-left: 100px;
+	padding: 10px 20px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+	line-height: 1.5em;
+	width: 445px;
+}
+
+/* section third */
+#third article {
+	background: rgba(51, 51, 51, 0.9);
+	border: 1px solid rgba(150, 150, 150, 0.1);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+	color: white;
+	padding: 10px 20px;
+	margin: 100px 0 0 60%;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+	line-height: 1.5em;
+	color: white;
+	position: absolute;
+	top: 0;
+}
+#third img {
+	border: 8px solid white;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.4);
+	height: 350px;
+	width: 560px;
+	position: absolute;
+	left: 30px;
+	top: 600px;
+	-webkit-transform: rotate(-8deg);
+	-moz-transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg);
+	-o-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+}
+
+/* section the end */
+#theend h2 {
+	color: white;
+	font-size: 4em;
+	left: 50%;
+	margin-left: -150px;
+	position: absolute;
+	text-shadow: 0 0 16px rgba(140, 123, 96, 0.8);
+	top: 180px;
+	width: 300px;
+}

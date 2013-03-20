@@ -1,0 +1,43 @@
+body {
+	height: 3300px;
+}
+h1 {
+	font-size: 100%;
+}
+
+.indicator {
+	margin: 0;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+.indicator {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+section {
+	height: 1050px;
+}
+section p {
+	color: #fff;
+	margin: 0;
+	padding: 8px;
+}
+#section1 {
+	background: url(../img/bg-parallaxsample01.jpg) repeat-x;
+}
+#section2 {
+	background: url(../img/bg-parallaxsample02.jpg) repeat-x;
+}
+#section3 {
+	background: url(../img/bg-parallaxsample03.jpg) repeat-x;
+}
+#section4 {
+	background: url(../img/bg-parallaxsample04.jpg) repeat-x;
+}
+#sectionAshColor {
+	background: #666;
+}
+#sectionRedColor {
+	background: #900;
+}

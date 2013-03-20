@@ -1,0 +1,54 @@
+body {
+	height: 3300px;
+}
+h1 {
+	font-size: 100%;
+}
+.indicator {
+	margin: 0;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+section {
+	background-size: 100%;
+	height: 200px;
+	position: fixed;
+	width: 314px;
+}
+section p {
+	color: #fff;
+	margin: 0;
+	padding: 8px;
+}
+#section1 {
+	background: url(../img/bg-parallaxsample01.jpg) no-repeat;
+	left: 30px;
+	-webkit-transform: scale(0.5, 0.5);
+	-moz-transform: scale(0.5, 0.5);
+	-ms-transform: scale(0.5, 0.5);
+	-o-transform: scale(0.5, 0.5);
+	transform: scale(0.5, 0.5);
+}
+#section2 {
+	background: url(../img/bg-parallaxsample02.jpg) no-repeat;
+	top: 200px;
+	right: 0;
+}
+#section3 {
+	background: url(../img/bg-parallaxsample03.jpg) no-repeat;
+	top: 520px;
+	right: 60px;
+	-webkit-transform: scale(2, 2);
+	-moz-transform: scale(2, 2);
+	-ms-transform: scale(2, 2);
+	-o-transform: scale(2, 2);
+	transform: scale(2, 2);
+}
+#section4 {
+	background: url(../img/bg-parallaxsample04.jpg) no-repeat;
+	height: 300px;
+	top: 400px;
+	width: 528px;
+	opacity: 0;
+}
